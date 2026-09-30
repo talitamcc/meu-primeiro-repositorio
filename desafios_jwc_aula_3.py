@@ -109,15 +109,15 @@
 # programar a variável 'tablets_sobra' e avisar quantos ficam na reserva do TI. 
 # Imprima ambos os resultados.
 
-# Código:
-total_tablets = 100
-divisao_tablets_sala = 3
-# DIVISÃO
-tablets_divisao = total_tablets // divisao_tablets_sala
-print(f"O resultado_da_divisão é: {tablets_divisao}")
-# O QUE RESTOU 
-tablets_sobra = total_tablets % divisao_tablets_sala
-print(f"O resultado_do_resto é: {tablets_sobra}")
+# # Código:
+# total_tablets = 100
+# divisao_tablets_sala = 3
+# # DIVISÃO
+# tablets_divisao = total_tablets // divisao_tablets_sala
+# print(f"O resultado_da_divisão é: {tablets_divisao}")
+# # O QUE RESTOU 
+# tablets_sobra = total_tablets % divisao_tablets_sala
+# print(f"O resultado_do_resto é: {tablets_sobra}")
 
 
 # ==============================================================================
@@ -131,6 +131,10 @@ print(f"O resultado_do_resto é: {tablets_sobra}")
 # 2 à 4ª potência (**). Multiplique o resultado pelo armazenamento atual e imprima.
 
 # Código:
+
+# armazenamento_atual_tb = 3
+# resultado_armazenamento_futuro_previsto = 2**4 * armazenamento_atual_tb
+# print(resultado_armazenamento_futuro_previsto)
 
 
 # ==============================================================================
@@ -151,3 +155,11 @@ print(f"O resultado_do_resto é: {tablets_sobra}")
 #    "Sistema JWC: O aluno [nome] fechou o ano com média [media]".
 
 # Código:
+
+nome_do_aluno = input ("Qual o nome do Aluno(a)? ")
+primeira_nota = float (input("Qual a primeira Nota? "))
+segunda_nota = float(input("Qual a segunda Nota? "))
+terceira_nota = float(input("Qual a terceira Nota? "))
+
+media_das_notas = (primeira_nota + segunda_nota + terceira_nota) / 3
+print(f"Sistema JWC: O aluno {nome_do_aluno} fechou o ano com média {media_das_notas:.2f}")
