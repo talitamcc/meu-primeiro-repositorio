@@ -162,4 +162,5 @@ segunda_nota = float(input("Qual a segunda Nota? "))
 terceira_nota = float(input("Qual a terceira Nota? "))
 
 media_das_notas = (primeira_nota + segunda_nota + terceira_nota) / 3
-print(f"Sistema JWC: O aluno {nome_do_aluno} fechou o ano com média {media_das_notas:.2f}")
+print(f"Sistema JWC: O aluno {nome_do_aluno} fechou o ano com média {media_das_notas
+:.2f}")
